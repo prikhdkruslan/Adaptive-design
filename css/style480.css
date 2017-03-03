@@ -1,0 +1,452 @@
+
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  header,
+  section,
+  main,
+  footer {
+    width: 100%;
+  }
+  .line960 {
+  display: none;
+  }
+
+  .line480 {
+  display: inline-block;
+  }
+
+  ul.submenu {
+  display: none;
+  position: absolute;
+  top: 44px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 0px 0px 10px 10px;
+  z-index: 5;
+  }
+
+  ul.submenu > li {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0px 0% 1px 0%;
+  }
+
+  ul.submenu > li > a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  }
+
+  ul.submenu > li >:hover {
+  margin-bottom: -1px;
+  background-color: rgba(0,0,0,0.2);
+  border-bottom: 1px solid pink;
+  }
+
+  ul.upmenu > li:hover > ul.submenu {
+  display: block;
+  }
+
+  .title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  }
+
+  .upmenu2,
+  .upmenu3,
+  .upmenu4,
+  .upmenu5,
+  .upmenu6 {
+  display: none;
+  margin: 0;
+  padding: 0;
+  }
+
+  .upmenu2:hover,
+  .upmenu3:hover,
+  .upmenu4:hover,
+  .upmenu5:hover,
+  .upmenu6:hover {
+  border: none;
+  }
+  .upmenu {
+  display: block;
+  margin: 0px 0% 0px 0%;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  }
+
+  .upmenu1 {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  float: none;
+  width: 180px;
+  padding: 10px;
+  margin-top: 22px;
+  }
+
+  .upmenu1:hover {
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 10px 10px 0px 0px;
+  border: none;
+  }
+  .upmenu1:hover > a {
+  border-bottom: 1px solid pink;
+  }
+  .background {
+  top: 190px;
+  height: 245px;
+  }
+
+  .line3_2 {
+  display: none;
+  }
+  .picture2 > img {
+  width: 138px;
+  }
+
+  .picture2 {
+  top: -102px;
+  left: 65%;
+  }
+
+  .picture3 > img {
+  width: 86px;
+  height: 184px;
+  }
+
+  .picture3 {
+  top: -45px;
+  left: 54%;
+  }
+  .right_arrow {
+  top: 14px;
+  left: 97%;
+  }
+  .left_arrow {
+  top: 15px;
+  left: -2%;
+  }
+  .picture {
+  margin: 183px 0% 0px 0.1%;
+  height: 158px;
+  }
+  .text {
+  width: 55%;
+  }
+  .line1 {
+  margin: 0px 0% 1px 12.5%;
+  font-size: 36px;
+  }
+  .line2 {
+  margin: 4px 0% 0px 12.6%;
+  font-size: 17px;
+  }
+  .line2_1 {
+  display: none;
+  }
+  .line3_2 {
+  margin: 10px 0% 0px 7%;
+  width: 83%;
+  }
+  .line3_1 {
+  display: none;
+  }
+
+  .button {
+  margin-left: 41.5%;
+  }
+
+  .button .radio1 {
+  margin: 0px 0.8%;
+  }
+
+  .h-wrp {
+  height: 534px;
+  }
+
+  .para1,
+  .para2,
+  .para3 {
+  float: none;
+  width: 100%;
+  }
+
+  .icon1 {
+  margin: 4px 0% 0px 5%;
+  width: 28px;
+  }
+  .heading1 {
+  width: 82.7%;
+  margin: 4px 0% 0px -4.8%;
+  }
+  .heading1_1 {
+  font-size: 25px;
+  margin-left: 11%;
+  }
+  .text1_2,
+  .text2_2,
+  .text3_2 {
+  display: inline;
+  }
+
+  .text1 {
+  margin: -7px 4% 0px 0%;
+  width: 83%;
+  }
+  .link1 {
+  margin: 16px 4.3% 0px 5%;
+  }
+  .para2 {
+  margin: 18px 0% 0px 0%;
+  }
+  .icon2 {
+  margin: 4px 0% 0px 6%;
+  width: 28px;
+  }
+  .heading2 {
+  width: 82.7%;
+  margin: 4px 0% 0px -4.8%;
+  }
+  .heading2_1 {
+  font-size: 25px;
+  margin-left: 11%;
+  }
+
+  .text2 {
+  margin: -7px 4% 0px 0%;
+  width: 83%;
+  }
+  .link2 {
+  margin: 16px 4.3% 0px 5%;
+  }
+  .para3 {
+  margin: 18px 0% 0px 0%;
+  }
+  .icon3 {
+  margin: 4px 0% 0px 6%;
+  width: 27px;
+  }
+  .heading3 {
+  width: 82.7%;
+  margin: 4px 0% 0px -4.8%;
+  }
+  .heading3_1 {
+  font-size: 25px;
+  margin-left: 11%;
+  }
+  .text3 {
+  margin: -7px 4% 0px 0%;
+  width: 83%;
+  }
+  .text3_1 {
+  letter-spacing: -0.4px;
+  }
+  .link3 {
+  margin: 16px 4.3% 0px 5%;
+  }
+  .s-wrp1 {
+  height: 599px;
+  }
+
+  .para4 {
+  float: none;
+  width: 100%;
+  }
+
+  .line4_1 {
+  width: 100%;
+  }
+  .heading4 {
+  margin: 69px 0% 0px 8.2%;
+  width: 89%;
+  }
+  .img4 {
+  margin-left: -6.6%;
+  }
+  .line4_2 {
+  font-size: 29px;
+  margin: 11px 0% 0px 4%;
+  }
+  .line4_3 {
+  font-size: 29px;
+  margin: 11px 0% 0px 2%;
+  }
+  .line4_4 {
+  margin: 4px 0% 0px 8.5%;
+  width: 87%;
+  }
+  .line4_6 {
+  display: inline;
+  }
+  .checkbox2 {
+  margin: 28px 0% 0px 42.5%;
+  width: 103%;
+  }
+  .layer {
+  display: none;
+  }
+  .para5 {
+  float: none;
+  width: 100%;
+  }
+  .line5 {
+  margin: 49px 0% 0px 17.5%;
+  }
+  .line5_1 {
+  margin: 2.5px 0% 0px 7%;
+  }
+  .img5,
+  .img5_1,
+  .img5_2 {
+  margin: 18px 0% 0px 95%; 
+  }
+  .para5_2 {
+  width: 74%;
+  } 
+  .line5_3,
+  .line5_5 {
+  margin: 25.5px 0% 0px 7%;
+  }
+  .line5_2 {
+  margin: 6px 0% 0px 7%;
+  letter-spacing: -1.1px;
+  }
+  .line5_4,
+  .line5_6 {
+  margin: 5.5px 0% 0px 7%;
+  letter-spacing: -1.1px;
+  }
+  .link5 a {
+  margin: 24px 12.7% 0px 0%;
+  }
+  .wrapper4 {
+  height: 787px;
+  }
+
+  .s-wrp2 {
+  height: 100%;
+  }
+  .logos {
+  margin: 0px 0% 0px 0%;
+  height: 229px;
+  }
+  .img5_3 {
+  margin: 30.5px 0% 0px 16.2%;
+  }
+  
+  .img5_4 {
+  margin: 32px 0% 0px 9.7%;
+  }
+
+  .img5_5 {
+  margin: 31px 0% 5px 9.7%;
+  }
+
+  .img5_6 {
+  margin: 15px 0% 20px 12.6%;
+  }
+
+  .img5_7 {
+  margin: 15px 0% 0px 9.6%;
+  }
+
+  .img5_8 {
+  margin: 15px 0% 0px 8.8%;
+  }
+
+  .para6,
+  .para7,
+  .para8 {
+  float: none;
+  width: 100%;
+  margin: 0px 0% 0px 0%;
+  }
+
+  .line6_1 {
+  display: none;
+  }
+  
+  .section3 {
+  padding-top: 24px;
+  }
+  
+  .line6_4,
+  .line7_1,
+  .line8_1 {
+  color: black;
+  font-size: 25px;
+  margin: 56px 0% 0px 3.3%;
+  font-style: normal;
+  font-family: 'league_gothicregular';
+  }
+
+  .line6_5,
+  .line7_2,
+  .line8_2 {
+  margin: 9px 2% 12px 3.2%;
+  }
+ 
+  .span {
+  letter-spacing: 2px;
+  }
+  
+  .line7_2,
+  .line8_2 {
+  width: 94%;
+  }
+  .s-wrp3 {
+  height: 667px;
+  }
+  .footer {
+  height: 116px;
+  }
+  .para9,
+  .para10 {
+  float: none;
+  width: 100%;
+  }
+
+  .para9,
+  .para10 {
+  margin:0px 0% 0px 0%;
+  }
+  .lowmenu1 {
+  margin: 48px 0% 0px 4%;
+  }
+  .lowmenu2 {
+  margin: 48px 0% 0px 5%;
+  }
+  .lowmenu3 {
+  margin: 48px 0% 0px 5%;
+  }
+  .lowmenu4 {
+  margin: 48px 0% 0px 4.5%;
+  }
+  .lowmenu5 {
+  margin: 48px 0% 0px 4.5%;
+  }
+  .lowmenu6 {
+  margin: 48px 0% 0px 4.2%;
+  }
+  
+  .para10 {
+  margin: 34px 0% 0px 34.3%;
+  }  
+  .line10_1 {
+  float: none;
+  }
+  .line10_2 {
+  float: none;
+  margin: auto;
+  }
+  .line10_3 {
+  float: none;
+  }
+}
